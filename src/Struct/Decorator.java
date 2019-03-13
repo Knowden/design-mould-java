@@ -19,12 +19,18 @@ import java.util.HashMap;
 当你有五个甚至十个ConcreteComponent时，再想要为每个类都加上“ready？go！”的效果，就要写出五个子类了。
 毫无疑问这是不合理的。装饰器模式在不影响各个ConcreteComponent核心价值的同时，添加了他特有的装饰效果，具备非常好的通用性，这也是他存在的最大价值。
  */
+
+/*
+一个装饰类的接口必须与被装饰类的接口保持相同，对于客户端来说无论是装饰之前的对象还是装饰之后的对象都可以一致对待。
+也就是说，装饰器的重点是强化，而不是加活，意思是，可以是原有功能得到扩展，但不建议出现一些新功能（接口）
+ */
 public class Decorator {
     public static void main(String[] args) {
         People worker = new Programmer();
         worker.work();
         worker = new Happy(worker);
         worker.work();
+        ((Happy) worker).bibi();
     }
 
 }
@@ -61,6 +67,10 @@ class Happy extends Feel {
     public void work() {
         System.out.println("Happily");
         super.work();
+    }
+
+    public void bibi() {
+        System.out.println("bibi");
     }
 }
 

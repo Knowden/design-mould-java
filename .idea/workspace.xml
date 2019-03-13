@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2b1d3d-61da-4a34-8c4b-b72459c3def7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Struct/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Struct/Facade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Struct/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Struct/Decorator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Struct/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -40,21 +41,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Struct/Decorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+            <state relative-caret-position="201">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Struct/Facade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/Struct/Adapter.java" />
         <option value="$PROJECT_DIR$/src/Struct/Abstraction.java" />
         <option value="$PROJECT_DIR$/src/Struct/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/Struct/Facade.java" />
       </list>
     </option>
   </component>
@@ -125,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552440990150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552446997238" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -189,12 +208,12 @@
       <updated>1552379898589</updated>
       <workItem from="1552379902731" duration="6738000" />
       <workItem from="1552399942520" duration="191000" />
-      <workItem from="1552400203226" duration="2485000" />
+      <workItem from="1552400203226" duration="4720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9497000" />
+    <option name="totallyTimeSpent" value="11732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -309,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Struct/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Struct/Abstraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -333,18 +345,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Struct/Decorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="201">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Struct/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Struct/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
           </folding>
         </state>
       </provider>
