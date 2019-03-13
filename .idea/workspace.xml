@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2b1d3d-61da-4a34-8c4b-b72459c3def7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Struct/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Struct/Decorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Struct/Abstraction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -35,6 +35,26 @@
                 <element signature="e#507#508#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
                 <element signature="e#577#578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Struct/Decorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/builder/Singleton.java" />
         <option value="$PROJECT_DIR$/src/Struct/Adapter.java" />
         <option value="$PROJECT_DIR$/src/Struct/Abstraction.java" />
+        <option value="$PROJECT_DIR$/src/Struct/Decorator.java" />
       </list>
     </option>
   </component>
@@ -104,7 +125,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552400166088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552440990150" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -122,7 +143,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Decorator">
+    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Struct.Decorator" />
+      <module name="DesignMould" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Struct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.Singleton" />
       <module name="DesignMould" />
@@ -138,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
@@ -154,12 +189,12 @@
       <updated>1552379898589</updated>
       <workItem from="1552379902731" duration="6738000" />
       <workItem from="1552399942520" duration="191000" />
-      <workItem from="1552400203226" duration="1240000" />
+      <workItem from="1552400203226" duration="2485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8252000" />
+    <option name="totallyTimeSpent" value="9497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -292,6 +327,24 @@
             <element signature="e#507#508#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Struct/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
           </folding>
         </state>
       </provider>
