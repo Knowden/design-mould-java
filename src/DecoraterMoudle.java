@@ -5,7 +5,7 @@
  */
 public class DecoraterMoudle {
     public static void main(String[] args) {
-        Drink coffee = new Coffee();
+        Drink coffee = new Coffee(DrinkSize.GRANDE);
         coffee = new SugerAdder(coffee);
         coffee = new SugerAdder(coffee);
         coffee = new SalaAdder(coffee);
@@ -14,8 +14,14 @@ public class DecoraterMoudle {
     }
 }
 
+enum DrinkSize {
+    VENTI, GRANDE, TALL
+}
+
 abstract class Drink {
     String info = "I know Nothing!";
+
+    DrinkSize size;
 
     public abstract double cost();
 
@@ -40,8 +46,9 @@ abstract class Decorater extends Drink {
 
 class Coffee extends Drink {
 
-    Coffee() {
+    Coffee(DrinkSize size) {
         info = "I'm Coffee!";
+        this.size = size;
     }
 
     @Override
@@ -52,8 +59,9 @@ class Coffee extends Drink {
 
 class Juice extends Drink{
 
-    public Juice() {
+    public Juice(DrinkSize size) {
         info = "I'm Juice!";
+        this.size = size;
     }
 
     @Override
